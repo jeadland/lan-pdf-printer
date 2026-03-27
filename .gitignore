@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.DS_Store
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Local runtime/config state
+config.toml
+spool/
+output/
+logs/
+

@@ -1,0 +1,6 @@
+printer_name = "LAN PDF Printer"
+output_dir = "~/Documents/RemotePrinterPDFs"
+spool_dir = "~/Library/Application Support/PrintToPDF/spool"
+port = 8631
+location = "Home Office"
+log_file = "~/Library/Logs/PrintToPDF/remote-printer.log"

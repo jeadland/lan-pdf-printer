@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lan-pdf-printer"
+version = "0.1.0"
+description = "macOS-hosted LAN printer that saves incoming print jobs as PDFs."
+readme = "README.md"
+requires-python = ">=3.13"
+authors = [
+  { name = "Josh Adland" }
+]
+dependencies = ["pypdf>=6.9.2"]
+
+[project.scripts]
+printtopdf = "printtopdf.cli:main"
+
+[tool.setuptools]
+packages = ["printtopdf"]
