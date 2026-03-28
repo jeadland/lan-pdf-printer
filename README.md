@@ -61,7 +61,7 @@ It uses macOS's built-in `ippeveprinter` service to advertise an IPP Everywhere 
 The app reads `config.toml` from the project root by default. Start by copying [`config.example.toml`](/Users/joshadland/Projects/PrintToPDF/config.example.toml).
 
 ```toml
-printer_name = "LAN PDF Printer"
+printer_name = "Home LAN Printer"
 output_dir = "~/Documents/RemotePrinterPDFs"
 spool_dir = "~/Library/Application Support/PrintToPDF/spool"
 port = 8631
